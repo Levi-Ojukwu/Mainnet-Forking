@@ -75,8 +75,8 @@ const main = async () => {
     const newUsdcValue = usdcBalanceBefore - usdcBalanceAfter;
     const newDaiValue = LSKBalanceAfter - DAIBalanceBefore;
 
-    console.log("USDC Used:", ethers.formatUnits(newUsdcValue, 6));
-    console.log("DAI Received:", ethers.formatUnits(newDaiValue, 18));
+    console.log("New USDC Value:", ethers.formatUnits(newUsdcValue, 6));
+    console.log("New DAI Value:", ethers.formatUnits(newDaiValue, 18));
     
     console.log("Swap executed successfully!");
 }
