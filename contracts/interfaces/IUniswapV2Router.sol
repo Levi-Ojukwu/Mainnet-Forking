@@ -66,7 +66,7 @@ interface IUniswapV2Router {
         uint deadline
     ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
 
-    // Working on it
+    // Done
     function removeLiquidity(
         address tokenA,
         address tokenB,
@@ -77,6 +77,7 @@ interface IUniswapV2Router {
         uint deadline
     ) external returns (uint amountA, uint amountB);
 
+    // Working on this
     function removeLiquidityETH(
       address token,
       uint liquidity,
