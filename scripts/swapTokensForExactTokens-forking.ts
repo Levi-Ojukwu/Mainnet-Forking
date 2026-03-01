@@ -67,10 +67,12 @@ const main = async () => {
 
     console.log("==================After Swap==========================================");
     console.log("USDC Balance after swap:", ethers.formatUnits(usdcBalanceAfter, 6));
+
     console.log("DAI Balance after swap:", ethers.formatUnits(DAIBalanceAfter, 18));
 
     console.log("==================Difference==========================================");
     const newUsdcValue = usdcBalanceBefore - usdcBalanceAfter;
+    
     const newDaiValue = DAIBalanceAfter - DAIBalanceBefore;
 
     console.log("New USDC Value:", ethers.formatUnits(newUsdcValue, 6));
