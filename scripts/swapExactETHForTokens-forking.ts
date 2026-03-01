@@ -66,6 +66,8 @@ const main = async () => {
     
     console.log("DAI Balance difference:", ethers.formatUnits(newDaiBalance, 18));
     console.log("ETH Balance difference:", ethers.formatEther(newEthBalance));
+
+    console.log("Swap executed successfully!");
 }
 
 main().catch((error) => {
