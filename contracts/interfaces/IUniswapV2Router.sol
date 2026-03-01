@@ -36,6 +36,7 @@ interface IUniswapV2Router {
       uint deadline
     ) external payable returns (uint[] memory amounts);
 
+    // Done
     function swapExactETHForTokens(
       uint amountOutMin, 
       address[] calldata path, 
@@ -43,6 +44,7 @@ interface IUniswapV2Router {
       uint deadline
     ) external payable returns (uint[] memory amounts);
 
+    // Done
     function addLiquidity(
         address tokenA,
         address tokenB,
